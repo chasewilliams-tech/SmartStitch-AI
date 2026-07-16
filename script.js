@@ -1,0 +1,1 @@
+const quizConstainer = document.getElementById('quiz-card');
