@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Stitch - Style Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+
+<header>
+
+    <div class="logo">
+
+        <img src="logo.png" alt="Smart Stitch Logo">
+
+    </div>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="AIStylist.html">AI Stylist</a>
+        <a href="StyleQuiz.html">Style Quiz</a>
+
+    </nav>
+
+    <div class="nav-right">
+
+        <a href="profile.html">
+            <i class="fa-regular fa-user"></i>
+        </a>
+
+    </div>
+
+</header>
+
+<!-- ================= SMART STITCH STYLE QUIZ ================= -->
+
+<section class="quiz-container">
+
+    <div class="quiz-card">
+
+        <h1>Discover Your Personal Style</h1>
+
+        <p class="quiz-subtitle">
+            Answer these questions so Smart Stitch AI can build your personalized style profile.
+        </p>
+
+        <form>
+
+            <!-- Question 1 -->
+            <div class="question">
+
+                <h2>1. How would your friends describe your style?</h2>
+
+                <label><input type="radio" name="style"> Casual & Comfortable</label>
+                <label><input type="radio" name="style"> Trendy & Fashion Forward</label>
+                <label><input type="radio" name="style"> Sporty</label>
+                <label><input type="radio" name="style"> Classic & Timeless</label>
+                <label><input type="radio" name="style"> I don't really know yet</label>
+
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+
+                <h2>2. What matters most when buying clothes?</h2>
+
+                <label><input type="radio" name="priority"> Price</label>
+                <label><input type="radio" name="priority"> Quality</label>
+                <label><input type="radio" name="priority"> Brand Name</label>
+                <label><input type="radio" name="priority"> Style</label>
+
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question">
+
+                <h2>3. How much do you usually spend on a hoodie?</h2>
+
+                <label><input type="radio" name="budget"> Under $25</label>
+                <label><input type="radio" name="budget"> $25 - $50</label>
+                <label><input type="radio" name="budget"> $50 - $80</label>
+                <label><input type="radio" name="budget"> Over $80</label>
+
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+
+                <h2>4. Which colors do you wear the most?</h2>
+
+                <label><input type="checkbox"> Black</label>
+                <label><input type="checkbox"> White</label>
+                <label><input type="checkbox"> Blue</label>
+                <label><input type="checkbox"> Earth Tones</label>
+                <label><input type="checkbox"> Bright Colors</label>
+
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+
+                <h2>5. Which clothing brands do you wear most often?</h2>
+
+                <label><input type="checkbox"> Nike</label>
+                <label><input type="checkbox"> Adidas</label>
+                <label><input type="checkbox"> Ralph Lauren</label>
+                <label><input type="checkbox"> H&M</label>
+                <label><input type="checkbox"> Uniqlo</label>
+                <label><input type="checkbox"> Thrift Stores</label>
+
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+
+                <h2>6. What kind of clothes do you usually wear?</h2>
+
+                <label><input type="radio" name="fit"> Slim Fit</label>
+                <label><input type="radio" name="fit"> Regular Fit</label>
+                <label><input type="radio" name="fit"> Relaxed Fit</label>
+                <label><input type="radio" name="fit"> Oversized</label>
+
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+
+                <h2>7. Where do you get fashion inspiration?</h2>
+
+                <label><input type="radio" name="inspiration"> TikTok</label>
+                <label><input type="radio" name="inspiration"> Instagram</label>
+                <label><input type="radio" name="inspiration"> Pinterest</label>
+                <label><input type="radio" name="inspiration"> Friends</label>
+                <label><input type="radio" name="inspiration"> Celebrities</label>
+
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+
+                <h2>8. Which aesthetic describes you best?</h2>
+
+                <label><input type="radio" name="aesthetic"> Streetwear</label>
+                <label><input type="radio" name="aesthetic"> Old Money</label>
+                <label><input type="radio" name="aesthetic"> Minimalist</label>
+                <label><input type="radio" name="aesthetic"> Vintage</label>
+                <label><input type="radio" name="aesthetic"> Athletic</label>
+
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+
+                <h2>9. What is your biggest struggle when shopping?</h2>
+
+                <label><input type="radio" name="problem"> Clothes are too expensive</label>
+                <label><input type="radio" name="problem"> I don't know what matches</label>
+                <label><input type="radio" name="problem"> There are too many choices</label>
+                <label><input type="radio" name="problem"> I can't find quality clothes</label>
+
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+
+                <h2>10. If you could improve your wardrobe, what would you want most?</h2>
+
+                <label><input type="radio" name="goal"> Save Money</label>
+                <label><input type="radio" name="goal"> Dress More Fashionably</label>
+                <label><input type="radio" name="goal"> Buy Better Quality Clothes</label>
+                <label><input type="radio" name="goal"> Have an AI Personal Stylist</label>
+
+            </div>
+
+            <button class="submit-btn">
+
+                Generate My AI Style Profile
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
